@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+h2 {
+  text-align: center;
+  margin: 10px 0;
+}
+
+#map {
+  height: 80vh; /* 地図の高さは必須 */
+}
+
+#info {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  font-size: 16px;
+  z-index: 1000;
+}
